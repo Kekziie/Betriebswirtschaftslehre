@@ -40,3 +40,10 @@
 \contentsline {paragraph}{\nonumberline 14. Einzahlung, keine Einnahme, Reinverm\IeC {\"o}gen unver\IeC {\"a}ndert}{8}
 \contentsline {paragraph}{\nonumberline 15. Einnahme, Reinverm\IeC {\"o}gen und Zahlungsmittel unver\IeC {\"a}ndert}{8}
 \contentsline {paragraph}{\nonumberline 16. Ausgabe, kein Aufwand, keine Auszahlung}{8}
+\contentsline {section}{\numberline {2}System der doppelten Buchf\IeC {\"u}hrung}{8}
+\contentsline {subsection}{\numberline {2.1}System der Doppik}{8}
+\contentsline {subsection}{\numberline {2.2}Inventur und Bilanzwert}{8}
+\contentsline {paragraph}{\nonumberline a)}{9}
+\contentsline {paragraph}{\nonumberline b)}{10}
+\contentsline {paragraph}{\nonumberline c)}{10}
+\contentsline {paragraph}{\nonumberline d)}{11}

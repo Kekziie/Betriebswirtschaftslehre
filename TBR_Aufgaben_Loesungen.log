@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.23)  6 NOV 2017 18:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.23)  6 NOV 2017 19:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -889,7 +889,7 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \f@ncyO@olf=\skip67
 \f@ncyO@orf=\skip68
 )
-No file TBR_Aufgaben_Loesungen.aux.
+(./TBR_Aufgaben_Loesungen.aux)
 \openout1 = `TBR_Aufgaben_Loesungen.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
@@ -906,6 +906,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
 LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 51.
 LaTeX Font Info:    Try loading font information for FML+futm on input line 51.
+
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
@@ -1048,11 +1049,30 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input li
 ne 57.
 
-No file TBR_Aufgaben_Loesungen.toc.
+(./TBR_Aufgaben_Loesungen.toc
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 2.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 2.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 2.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 2.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 2.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 2.
+
+Overfull \hbox (8.8374pt too wide) in paragraph at lines 8--8
+ [][] []\T1/futs/m/n/10.95 induktive/ de-duk-tive Ableitung von Grund-sätzen or
+d-nungsmäÿiger Buch-führung 
+ []
+
+)
 \tf@toc=\write3
 \openout3 = `TBR_Aufgaben_Loesungen.toc'.
 
-[2]
+ [2]
 Overfull \hbox (0.41675pt too wide) in paragraph at lines 69--70
 \T1/futs/m/n/10.95 Nennen und er-läutern Sie jew-eils zwei rechtliche und ökono
 mis-che Zwecke der Rech-nungsle-
@@ -1063,18 +1083,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 71.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 71.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 71.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 71.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 71.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 71.
 LaTeX Font Info:    Try loading font information for TS1+futs on input line 74.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/ts1futs.fd
@@ -1116,34 +1124,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--123
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
 
  []
 
 [4]
-Overfull \hbox (10.08578pt too wide) in paragraph at lines 189--192
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+
+Overfull \hbox (10.08578pt too wide) in paragraph at lines 196--199
 \T1/futs/m/n/10.95 Sammlung und Auf-bere-itung in-terner und ex-terner Daten fü
 r Un-ternehmensleitung
  []
 
-[5] [6] (./TBR_Aufgaben_Loesungen.aux) ) 
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+[6]
+Overfull \hbox (34.03319pt too wide) in paragraph at lines 275--276
+\T1/futs/m/n/10.95 Im Fol-gen-den sind Kom-bi-na-tio-nen von Be-standsverän-der
+un-gen und/ oder Strom-gröÿen angegeben,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+
+ []
+
+[7] [8] (./TBR_Aufgaben_Loesungen.aux) ) 
 Here is how much of TeX's memory you used:
- 7621 strings out of 492995
- 114685 string characters out of 6132703
+ 7628 strings out of 492995
+ 114879 string characters out of 6132703
  355943 words of memory out of 5000000
- 11015 multiletter control sequences out of 15000+600000
+ 11018 multiletter control sequences out of 15000+600000
  92095 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,10n,51p,8860b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,10n,51p,8860b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fon
-ts/enc/dvips/base/8r.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public
-/fourier/fourier-ms.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/adobe/u
-topia/putb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/adobe/utopia/p
-utr8a.pfb>
-Output written on TBR_Aufgaben_Loesungen.pdf (6 pages, 34038 bytes).
+ts/enc/dvips/base/8r.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm
+-super/cm-super-t1.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/f
+ourier/fourier-ms.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/adobe/uto
+pia/putb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/adobe/utopia/put
+r8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfsx109
+5.pfb>
+Output written on TBR_Aufgaben_Loesungen.pdf (8 pages, 52870 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 49 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

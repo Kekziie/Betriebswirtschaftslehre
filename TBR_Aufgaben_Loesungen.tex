@@ -1,0 +1,220 @@
+\documentclass[paper=a4, fontsize=11pt]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\author{Kim Thuong Ngo}
+
+
+\usepackage[T1]{fontenc}
+\usepackage{fourier}
+
+\usepackage{lipsum}
+
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{tabularx}
+
+\usepackage{sectsty}
+\allsectionsfont{\centering \normalfont\scshape}
+
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhead{}
+\fancyfoot[L]{}
+\fancyfoot[C]{}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\headheight}{13.6pt}
+
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+
+\setlength\parindent{0pt}
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}}
+
+\title{
+\normalfont \normalsize
+\textsc{Technik des betrieblichen Rechnungswesens} \\ [25pt]
+\horrule{0.5pt} \\[0.4cm]
+\huge Übungen und Lösungen\\
+\horrule{2pt} \\[0.5cm]
+}
+
+\author{Kim Thuong Ngo}
+
+\date{\normalsize\today}
+
+\begin{document}
+
+\maketitle
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+
+\section{Grundlagen}
+
+%-------------------------------------------------------------------
+
+\subsection{rechtliche und ökonomische Zwecke der Rechnungslegung}
+
+Nennen und erläutern Sie jeweils zwei rechtliche und ökonomische Zwecke der Rechnungslegung. \\
+
+\underline{Rechtliche Zwecke:}
+
+\begin{itemize}
+\item Dokumentationsfunktion: \\
+Breze
+Die lückenlose Erfassung dient der Beweissicherung. Die Bücher können zur Schlichtung von Konflikten vor Gerichten dienen.
+
+\item Anspruchsbemessungsfunktion:
+  \begin{itemize}
+  \item Ausschüttungsbemessungsfunktion \\
+Mit Hilfe der Rechnungslegung wird die Größe "Gewinn" (bzw. "Verlust") ermittelt. Auf  der Basis des Gewinns wird bestimmt, welcher Teil des Vermögens den Eigenen zur Ausschüttung zur Verfügung steht.
+  \item Steuerbemessung: \\
+Die von den Unternehmen zu zahlenden Steuern bemessen sich in Deutschland nach der Größe "Gewinn" (bzw. "Verlust") bei Beachtung der steuerrechtlichen Vorgaben.
+  \item Gläubigerschutz: \\
+Je weniger Vermögen an die Eigner ausgeschüttet wird, desto mehr verbleibt im Unternehmen und steht für die Befriedigung der Ansprüche der Gläubiger zur Verfügung. Das nicht ausgeschüttete Vermögen stellt eine Art "Polster" für Krisenzeiten dar. Je vorsichtiger und konservativer die Größe "Gewinn" (bzw. "Verlust") bestimmt wird, desto geringer die Ausschüttung an die Eigner.
+\end{itemize}
+\end{itemize}
+
+\underline{Ökonomische Zwecke:}
+
+\begin{itemize}
+\item Informationsfunktion: \\
+Die Offenlegung des Jahresabschlusses verringert die Informationssymmetrie zwischen der (internen) Unternehmungsleitung und der (externen) Eigen- und Fremdkapitalgebern. Der Jahresabschluss fasst die Informationen der Rechnungslegung aus den vergangenen Geschäftsjahr zusammen.
+
+\item Anreizfunktion: \\
+Die Rechnungslegung liefert Informationen, an die die Vergütung der Unternehmungsleitung anknüpfen kann. Beispielsweise hat ein Manager einen Anreiz den Gewinn zu steigern, wenn sich seine Vergütung am Gewinn orientiert.
+\end{itemize}
+
+%-------------------------------------------------------------------
+
+\subsection{möglicher Widerspruch zwischen Rechnungslegungszwecke und Interesse der Rechnungslegungsadressaten}
+
+Erläutern Sie inwiefern sich Rechnungslegungszwecke und die Interessen der Rechnungslegungsadressaten widersprechen können. \\
+
+Konfliktäre Interessen der Adressaten und Zwecke der Rechnunglegung: \\
+\begin{itemize}
+\item z.B. Gläubiger, \\
+an einem nicht zu hohen Schuldenstand des Unternehmens interessiert \\
+$\rightarrow$ vorsichtige Rechnungslegung führt zur geringeren Ausschüttungen
+
+\item z.B. Eigenkapitalgeber,
+  \begin{itemize}
+  \item fordern im Gegensatz zu Gläubigern Ausschüttungen \\
+$\rightarrow$ weniger vorsichtige Rechnungslegung
+  \item fordern Informationen für Kapitalanlagenentscheidungen, die nciht durch eine (übermäßige) vorsichtige Rechnungslegung verzerrt sein sollten
+  \item fordern für Kapitalanlagenentscheidungen eher zukunftsoriertierte Informationen
+\end{itemize}
+
+\item z.B Fiskus/ Gerichte: \\
+Eher an justiziablen, vergangenheitsorientierten Größen interessiert \\
+$\rightarrow$ Rechnungslegung mit eingeschränkten Ermessungsspielraum der Unternehmensführung \\
+$\rightarrow$ problematisch:  benötigte Informationen unterschiedlicher Natur \\
+  \begin{itemize}
+  \item vergangenheitsorientiert (Dokumentation) \\
+zukunftsorientiert (Information)
+  \item für interne Zwecke (retrospektiver Soll-Ist-Vergleich) \\
+für externe Zwecke (Information für Externe, z.b. Steuererhebung)
+\end{itemize}
+\end{itemize}
+
+%-------------------------------------------------------------------
+
+\subsection{Informationsfunktion der Rechnungslegung}
+\underline{Ausgangspunkt:}
+
+Informationsassymetrie zwischen Managern und Eignern börsenorientierter Publikumsgesellschaften aufgrund von der Trennung von Eigentum und Geschäftsführung.
+Eigenkapitalgeber stellen externe Adressaten der Recnungslegung dar. \\
+
+\underline{Informationsvorprung des Managers:}
+
+\begin{itemize}
+  \item künftige Erfolge der Projekte
+  \item das eigene Verhalten
+  \item Erfolge bereits durchgeführter Projekte
+\end{itemize}
+
+Informationen im Jahresabschluss dienen dem Abbau der Informationassymetrie durch:
+
+\begin{itemize}
+  \item Bereitstellung der Informationen für Kapitalanlageentscheidungen
+  \item Rechenschaftslegung
+\end{itemize}
+
+Ziel: Gewährleistung der Funktionsfähigkeit des Kapitalmarktes:
+
+\begin{itemize}
+  \item geringere Informationsassymetrie reduziert die Notwendigkeit der Kapitalmarktteilnehmer
+  sich gegen Übervortelung durch das Management zu schützen, was Kosten verursacht
+  \item Kosten können prohibitiv hoch sein, sodass der Kapitalmarkt zusammenbricht
+\end{itemize}
+
+%-------------------------------------------------------------------
+
+\subsection{Rechnungslegungszweck}
+
+%-------------------------------------------------------------------
+
+\subsection{Teilbereiche des Rechnungswesens}
+
+\underline{Internes Rechnungswesens}
+\begin{itemize}
+  \item Allgemein :\\
+  Informationsbereitstellung zur Entscheidungsfindung für Unternehmensführung und
+  Controlling (Selbstinformation)
+  \item Teilbereiche:
+  \begin{itemize}
+    \item Kostenrechnung:
+    \begin{itemize}
+      \item Ziel: \\
+      interne Rechenschaftslegung einzelner Abteilungen und Ermittlungen von Wertansätzen
+      (gilt auch für externes Rechnungswesen)
+      \item konkret:
+      \begin{itemize}
+        \item Kostenarten (welche Kosten?)
+        \item Kostenstellenrechnung (wo fallen Kosten an?)
+        \item Kostenträgerrechnung (wofür?/ wie hoch?)
+      \end{itemize}
+    \end{itemize}
+    \item Statistiken/ Vergleichsrechnungen: \\
+    Sammlung und Aufbereitung interner und externer Daten für
+    Unternehmensleitung (Umsatz, NAchfrage, ...)
+    \item Planungsrechnung: \\
+    Verwendung interner und externer Daten zur Prognose der künftigen Entwicklungen \\
+    $\rightarrow$ Wirtschaftlichkeitsrechnung, Produktions- und Investitionsentscheidungen
+  \end{itemize}
+\end{itemize}
+
+\underline{externes Rechnungswesen:}
+
+\begin{itemize}
+  \item Informationsbereitstellung für externe Adressaten (z.B. Eigenkapitalgeber)
+  \item eine alternative Beziehung: "Finanzbuchahltung" (FB)
+  \item FB besteht aus:
+  \begin{itemize}
+    \item Buchführung
+    \item Inventar
+    \item Jahresabschluss: Bilanz (= Vermögensübersicht), Gewinn- und Verlustrechnung
+    \item Sonderbilanz
+  \end{itemize}
+\end{itemize}
+
+Starke gesetzliche Reglementierung durch Vorschriften!!
+
+%-------------------------------------------------------------------
+
+\subsection{Finanzbuchhaltung}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

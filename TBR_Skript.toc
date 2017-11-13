@@ -11,39 +11,39 @@
 \contentsline {subsection}{\numberline {2.3}Bilanz}{4}
 \contentsline {subsection}{\numberline {2.4}Technik erfolgsneutraler Buchungsvorg\IeC {\"a}nge}{4}
 \contentsline {subsection}{\numberline {2.5}Technick erfolgswirksamer Buchungsvorg\IeC {\"a}nge}{4}
-\contentsline {subsection}{\numberline {2.6}Private Buchungsvorg\IeC {\"a}nge}{4}
-\contentsline {subsection}{\numberline {2.7}Organisatorische Grundlagen}{4}
-\contentsline {section}{\numberline {3}Laufende Gesch\IeC {\"a}ftsvorf\IeC {\"a}lle}{5}
-\contentsline {subsection}{\numberline {3.1}Warenverkehr, Materialverbrauch, Erzeugnisbest\IeC {\"a}nde}{5}
-\contentsline {subsubsection}{\numberline {3.1.1}Buchung des Warenverkehrs}{5}
-\contentsline {subsubsection}{\numberline {3.1.2}Einbeziehung der Umsatzsteuer}{5}
-\contentsline {subsubsection}{\numberline {3.1.3}Anschaffungsnebenkosten}{5}
-\contentsline {subsubsection}{\numberline {3.1.4}Retouren und Preisnachl\IeC {\"a}sse}{5}
-\contentsline {subsubsection}{\numberline {3.1.5}Eigenverbrauch}{5}
-\contentsline {subsubsection}{\numberline {3.1.6}Anzahlungen}{5}
-\contentsline {subsubsection}{\numberline {3.1.7}Verbrauch von Stoffen}{5}
-\contentsline {subsubsection}{\numberline {3.1.8}Bestandsver\IeC {\"a}nderungen von Erzeugnissen}{5}
-\contentsline {subsection}{\numberline {3.2}Lohn und Gehalt}{5}
-\contentsline {subsubsection}{\numberline {3.2.1}Institutionelle Grundlagen}{5}
-\contentsline {subsubsection}{\numberline {3.2.2}Buchungstechnik}{5}
-\contentsline {subsubsection}{\numberline {3.2.3}Geringf\IeC {\"u}giges Besch\IeC {\"a}ftigungsverh\IeC {\"a}ltnis}{5}
-\contentsline {subsubsection}{\numberline {3.2.4}Vorsch\IeC {\"u}sse und Sachbez\IeC {\"u}ge}{5}
-\contentsline {subsubsection}{\numberline {3.2.5}Verm\IeC {\"o}genswirksame Leistungen}{5}
-\contentsline {section}{\numberline {4}Vorbereitende Abschlussbuchungen}{6}
-\contentsline {subsection}{\numberline {4.1}Anlageverm\IeC {\"o}gen}{6}
-\contentsline {subsubsection}{\numberline {4.1.1}Vorbemerkungen}{6}
-\contentsline {subsubsection}{\numberline {4.1.2}Planm\IeC {\"a}\IeC {\ss }ige Abschreibungen auf Sachanlagen}{6}
-\contentsline {subsubsection}{\numberline {4.1.3}Au\IeC {\ss }erplanm\IeC {\"a}\IeC {\ss }ige Abschreibungen}{6}
-\contentsline {subsubsection}{\numberline {4.1.4}Zuschreibungen}{6}
-\contentsline {subsubsection}{\numberline {4.1.5}Ver\IeC {\"a}u\IeC {\ss }erung von Anlageverm\IeC {\"o}gen}{6}
-\contentsline {subsection}{\numberline {4.2}Umlaufverm\IeC {\"o}gen}{6}
-\contentsline {subsubsection}{\numberline {4.2.1}Handelswaren, Roh-, Hilfs- und Betriebsstoffe sowie Erzeugnisse}{6}
-\contentsline {subsubsection}{\numberline {4.2.2}Forderungen}{6}
-\contentsline {subsection}{\numberline {4.3}Zeitliche Abgrenzungen}{6}
-\contentsline {subsubsection}{\numberline {4.3.1}Rechnungsabgrenzung}{6}
-\contentsline {subsubsection}{\numberline {4.3.2}Darlehen und Disagio}{6}
-\contentsline {subsubsection}{\numberline {4.3.3}R\IeC {\"u}ckstellungen}{6}
-\contentsline {subsubsection}{\numberline {4.3.4}Latente Steuern}{6}
-\contentsline {section}{\numberline {5}Jahresabschluss}{7}
-\contentsline {subsection}{\numberline {5.1}Abschlussbuchungen}{7}
-\contentsline {subsection}{\numberline {5.2}Buchung des Erfolgs}{7}
+\contentsline {subsection}{\numberline {2.6}Private Buchungsvorg\IeC {\"a}nge}{5}
+\contentsline {subsection}{\numberline {2.7}Organisatorische Grundlagen}{5}
+\contentsline {section}{\numberline {3}Laufende Gesch\IeC {\"a}ftsvorf\IeC {\"a}lle}{6}
+\contentsline {subsection}{\numberline {3.1}Warenverkehr, Materialverbrauch, Erzeugnisbest\IeC {\"a}nde}{6}
+\contentsline {subsubsection}{\numberline {3.1.1}Buchung des Warenverkehrs}{6}
+\contentsline {subsubsection}{\numberline {3.1.2}Einbeziehung der Umsatzsteuer}{6}
+\contentsline {subsubsection}{\numberline {3.1.3}Anschaffungsnebenkosten}{6}
+\contentsline {subsubsection}{\numberline {3.1.4}Retouren und Preisnachl\IeC {\"a}sse}{6}
+\contentsline {subsubsection}{\numberline {3.1.5}Eigenverbrauch}{6}
+\contentsline {subsubsection}{\numberline {3.1.6}Anzahlungen}{6}
+\contentsline {subsubsection}{\numberline {3.1.7}Verbrauch von Stoffen}{6}
+\contentsline {subsubsection}{\numberline {3.1.8}Bestandsver\IeC {\"a}nderungen von Erzeugnissen}{6}
+\contentsline {subsection}{\numberline {3.2}Lohn und Gehalt}{6}
+\contentsline {subsubsection}{\numberline {3.2.1}Institutionelle Grundlagen}{6}
+\contentsline {subsubsection}{\numberline {3.2.2}Buchungstechnik}{6}
+\contentsline {subsubsection}{\numberline {3.2.3}Geringf\IeC {\"u}giges Besch\IeC {\"a}ftigungsverh\IeC {\"a}ltnis}{6}
+\contentsline {subsubsection}{\numberline {3.2.4}Vorsch\IeC {\"u}sse und Sachbez\IeC {\"u}ge}{6}
+\contentsline {subsubsection}{\numberline {3.2.5}Verm\IeC {\"o}genswirksame Leistungen}{6}
+\contentsline {section}{\numberline {4}Vorbereitende Abschlussbuchungen}{7}
+\contentsline {subsection}{\numberline {4.1}Anlageverm\IeC {\"o}gen}{7}
+\contentsline {subsubsection}{\numberline {4.1.1}Vorbemerkungen}{7}
+\contentsline {subsubsection}{\numberline {4.1.2}Planm\IeC {\"a}\IeC {\ss }ige Abschreibungen auf Sachanlagen}{7}
+\contentsline {subsubsection}{\numberline {4.1.3}Au\IeC {\ss }erplanm\IeC {\"a}\IeC {\ss }ige Abschreibungen}{7}
+\contentsline {subsubsection}{\numberline {4.1.4}Zuschreibungen}{7}
+\contentsline {subsubsection}{\numberline {4.1.5}Ver\IeC {\"a}u\IeC {\ss }erung von Anlageverm\IeC {\"o}gen}{7}
+\contentsline {subsection}{\numberline {4.2}Umlaufverm\IeC {\"o}gen}{7}
+\contentsline {subsubsection}{\numberline {4.2.1}Handelswaren, Roh-, Hilfs- und Betriebsstoffe sowie Erzeugnisse}{7}
+\contentsline {subsubsection}{\numberline {4.2.2}Forderungen}{7}
+\contentsline {subsection}{\numberline {4.3}Zeitliche Abgrenzungen}{7}
+\contentsline {subsubsection}{\numberline {4.3.1}Rechnungsabgrenzung}{7}
+\contentsline {subsubsection}{\numberline {4.3.2}Darlehen und Disagio}{7}
+\contentsline {subsubsection}{\numberline {4.3.3}R\IeC {\"u}ckstellungen}{7}
+\contentsline {subsubsection}{\numberline {4.3.4}Latente Steuern}{7}
+\contentsline {section}{\numberline {5}Jahresabschluss}{8}
+\contentsline {subsection}{\numberline {5.1}Abschlussbuchungen}{8}
+\contentsline {subsection}{\numberline {5.2}Buchung des Erfolgs}{8}

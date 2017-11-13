@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.23)  6 NOV 2017 23:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.23)  13 NOV 2017 11:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -889,7 +889,7 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \f@ncyO@olf=\skip67
 \f@ncyO@orf=\skip68
 )
-No file TBR_Skript.aux.
+(./TBR_Skript.aux)
 \openout1 = `TBR_Skript.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
@@ -906,6 +906,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
 LaTeX Font Info:    ... okay on input line 51.
 LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 51.
 LaTeX Font Info:    Try loading font information for FML+futm on input line 51.
+
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
@@ -1048,26 +1049,46 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input li
 ne 57.
 
-No file TBR_Skript.toc.
+(./TBR_Skript.toc)
 \tf@toc=\write3
 \openout3 = `TBR_Skript.toc'.
 
-[2] [3] [4] [5] [6] [7] (./TBR_Skript.aux) ) 
+ [2] [3]
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 117.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 117.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 117.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 117.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 117.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 117.
+
+Overfull \hbox (24.34262pt too wide) in paragraph at lines 122--124
+[]\T1/futs/m/n/10.95 Auflösung der Rück-stel-lung für Prozesskosten BS: Rück-st
+el-lun-gen an son-sti-gen be-trieblichen
+ []
+
+[4] [5] [6] [7] [8] (./TBR_Skript.aux) ) 
 Here is how much of TeX's memory you used:
- 7560 strings out of 492995
- 113683 string characters out of 6132703
- 353928 words of memory out of 5000000
- 10966 multiletter control sequences out of 15000+600000
- 68080 words of font info for 67 fonts, out of 8000000 for 9000
+ 7589 strings out of 492995
+ 114102 string characters out of 6132703
+ 358928 words of memory out of 5000000
+ 10989 multiletter control sequences out of 15000+600000
+ 86684 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,10n,51p,8848b,222s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist
-/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/ad
-obe/utopia/putr8a.pfb>
-Output written on TBR_Skript.pdf (7 pages, 22784 bytes).
+{/usr/local/texlive/2017/texmf-dist/fon
+ts/enc/dvips/base/8r.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public
+/fourier/fourier-mex.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/adobe/
+utopia/putr8a.pfb>
+Output written on TBR_Skript.pdf (8 pages, 29032 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 40 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -60,6 +60,49 @@
 \newpage
 \section{Tutorium I}
 %----------------------------------------------------
+\subsection{Formeln}
+Summenzeichen: $$\sum^{n}_{i=m}a = 
+a_{m}+a_{m+1}+...+a_{n-1}+a_{n}$$ mit $n \geq m$ und $n,m \in \mathbb{Z}$ \\
+Hinweis: $$\sum^{n}_{i=1}a_{i} 
+= \sum^{n}_{j=1}a_{j}
+= \sum^{n}_{k=1}a_{k}  $$ 
+Rechenregeln:
+\begin{itemize}
+\item $\sum^{n}_{i=1}a = n*a$
+\item $\sum^{n}_{i=k}c*a_{i} 
+= ca_{k} +ca_{k+1}+...+ca_{n}
+= c*(a_{k}+...+a_{n})
+= c* \sum^{n}_{i=k}a_{i} $
+\item $\sum^{n}_{i=}(a_{i}+b_{i})
+= \sum^{n}_{i=k}a_{i}  + \sum^{n}_{i=k}b_{i} $
+\item $\sum^{n}_{i=k}a_{i} 
+= \sum^{m}_{i=k}a_{i} + \sum^{n}_{i=m+1}a_{i}$ mit $k \leq m < n$
+\item $\sum^{n}_{i=k}a_{i} 
+= \sum^{n+k}_{i=1+k}a_{i-k}$
+\item $\sum^{n}_{i=1} \sum^{m}_{j=1}a_{ij}
+= \sum^{n}_{j=1} \sum^{n}_{i=1}a_{ij} $
+\item $\sum^{n}_{i=1}a_{i}*b_{i} 
+\neq \sum^{n}_{i=1}a_{i} * \sum^{n}_{i=1}b_{i}$
+\item $\sum^{n}_{i=1}i = \dfrac{n(n+1)}{2}$
+\item $\sum^{n}_{i=1}i^{2} = \dfrac{1}{6}n(n+1)(2n+1)$
+\end{itemize}
+
+Produktzeichen: $$\Pi^{n}_{i=m}a = 
+a_{m}*a_{m+1}*...*a_{n-1}*a_{n}$$ mit $n \geq m$ und $n,m \in \mathbb{Z}$ \\
+Rechenregeln:
+\begin{itemize}
+\item $\Pi^{n}_{i=1}ca_{i}
+=c^{n} \Pi^{n}_{i=1}a_{i}$
+\item $\Pi^{n}_{i=1}a_{i}b_{i}
+= /left( \Pi^{n}_{i=1}a_{i} /right) * /left( \Pi^{n}_{i=1}b_{i} /right)$
+\item für $a_{i} = b_{i}$ gilt 
+$ \Pi^{n}_{i=1}a_{i}^{2} = /left( \Pi^{n}_{i=1}a_{i} /right) ^{2}$
+\item $\Pi^{n}_{i=1}a_{i} 
+= \Pi^{n+k}_{i=1+k}a_{i-k}$
+\item $\Pi^{n}_{i=1} \Pi^{m}_{j=1}a_{ij}
+= \Pi^{n}_{j=1} \Pi^{n}_{i=1}a_{ij} $
+\end{itemize}
+%----------------------------------------------------
 \subsection{Summennotation}
 Berechnen Sie folgende Summen:
 %-----------------------------------

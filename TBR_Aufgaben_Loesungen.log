@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.23)  6 NOV 2017 19:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.23)  28 JAN 2019 13:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1047,7 +1047,7 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 57.
+ne 55.
 
 (./TBR_Aufgaben_Loesungen.toc
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -1073,214 +1073,689 @@ d-nungsmäÿiger Buch-führung
 \openout3 = `TBR_Aufgaben_Loesungen.toc'.
 
  [2]
-Overfull \hbox (0.41675pt too wide) in paragraph at lines 69--70
+Overfull \hbox (0.41675pt too wide) in paragraph at lines 61--62
 \T1/futs/m/n/10.95 Nennen und er-läutern Sie jew-eils zwei rechtliche und ökono
 mis-che Zwecke der Rech-nungsle-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 74.
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 66.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
 )
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 80.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 72.
 
-Overfull \hbox (1.3695pt too wide) in paragraph at lines 92--94
+Overfull \hbox (1.3695pt too wide) in paragraph at lines 84--86
 \T1/futs/m/n/10.95 Die Of-fen-le-gung des Jahresab-schlusses ver-ringert die In
 -for-ma-tion-ssym-me-trie zwis-chen
  []
 
 
-Overfull \hbox (27.7699pt too wide) in paragraph at lines 95--97
+Overfull \hbox (27.7699pt too wide) in paragraph at lines 87--89
 \T1/futs/m/n/10.95 Die Rech-nungsle-gung liefert In-for-ma-tio-nen, an die die 
 Vergü-tung der Un-ternehmungsleitung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
 
-Overfull \hbox (24.97778pt too wide) in paragraph at lines 119--123
+Overfull \hbox (24.97778pt too wide) in paragraph at lines 108--112
 \FMS/futm/m/n/10.95 !$ \T1/futs/m/n/10.95 Rech-nungsle-gung mit eingeschränk-te
 n Er-mes-sungsspiel-raum der Un-ternehmensführung 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--123
+Underfull \hbox (badness 10000) in paragraph at lines 108--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--141
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 153--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
 
-Overfull \hbox (10.08578pt too wide) in paragraph at lines 196--199
+Overfull \hbox (10.08578pt too wide) in paragraph at lines 177--180
 \T1/futs/m/n/10.95 Sammlung und Auf-bere-itung in-terner und ex-terner Daten fü
 r Un-ternehmensleitung
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 206--208
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
 [6]
-Overfull \hbox (34.03319pt too wide) in paragraph at lines 275--276
+Overfull \hbox (34.03319pt too wide) in paragraph at lines 245--246
 \T1/futs/m/n/10.95 Im Fol-gen-den sind Kom-bi-na-tio-nen von Be-standsverän-der
 un-gen und/ oder Strom-gröÿen angegeben,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 317--318
+Underfull \hbox (badness 10000) in paragraph at lines 283--285
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--324
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--372
+Underfull \hbox (badness 10000) in paragraph at lines 288--335
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 375--376
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 417--418
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 419--441
+Underfull \hbox (badness 10000) in paragraph at lines 382--404
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--467
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
 
  []
 
 ! Misplaced \noalign.
 <recently read> \noalign 
                          
-l.471 \hline
+l.434 \hline
             
 ? 
 ! You can't use `\hrule' here except with leaders.
 \hline ->\noalign {\ifnum 0=`}\fi \hrule 
                                          \@height \arrayrulewidth \futurelet...
-l.471 \hline
+l.434 \hline
             
 ? 
 ! Missing number, treated as zero.
 <to be read again> 
                    \futurelet 
-l.471 \hline
+l.434 \hline
             
 ? 
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \futurelet 
-l.471 \hline
+l.434 \hline
             
 ? 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.472 Januar J2 &
+l.435 Januar J2 &
                   \\
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--482
+Underfull \hbox (badness 10000) in paragraph at lines 431--445
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 497--498
+Underfull \hbox (badness 10000) in paragraph at lines 460--461
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--513
+Underfull \hbox (badness 10000) in paragraph at lines 462--476
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 514--524
+Underfull \hbox (badness 10000) in paragraph at lines 477--487
 
  []
 
-[11] (./TBR_Aufgaben_Loesungen.aux) ) 
-Here is how much of TeX's memory you used:
- 7629 strings out of 492995
- 114890 string characters out of 6132703
- 357967 words of memory out of 5000000
- 11019 multiletter control sequences out of 15000+600000
- 92095 words of font info for 97 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 48i,11n,51p,8860b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/
-enc/dvips/base/8r.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-su
-per/cm-super-t1.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/four
-ier/fourier-alt.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/four
-ier/fourier-ms.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/adobe/utopia
-/putb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/adobe/utopia/putr8a
-.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfsx1095.p
-fb>
-Output written on TBR_Aufgaben_Loesungen.pdf (11 pages, 60543 bytes).
-PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+Overfull \hbox (6.15453pt too wide) in paragraph at lines 502--504
+\T1/futs/m/n/10.95 Erläutern Sie die Be-griffe Ak-tiv-tausch, Pas-siv-tausch, B
+i-lanzver-längerung und Bi-lanzverkürzung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--504
+
+ []
+
+
+Overfull \hbox (2.36581pt too wide) in paragraph at lines 505--506
+\T1/futs/m/n/10.95 Ihnen liegen die un-ten aufge-führte Eröff-nungs-bi-lanz und
+ die (er-fol-gsneu-tralen) Geschäftsvor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--506
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--524
+
+ []
+
+[11]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.543 
+      
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 546--553
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 556--562
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 565--571
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 574--580
+
+ []
+
+! Misplaced alignment tab character &.
+<argument> Ford aus L&
+                      L
+l.581 \underline{Ford aus L&L}
+                              
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 583--589
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--598
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--607
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--616
+
+ []
+
+! Misplaced alignment tab character &.
+<argument> Verbindung aus L&
+                            L
+l.617 \underline{Verbindung aus L&L}
+                                    
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 619--625
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 628--634
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 637--643
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 646--652
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 655--661
+
+ []
+
+
+Overfull \hbox (7.89919pt too wide) in paragraph at lines 664--665
+\T1/futs/m/n/10.95 Bilden Sie die Buchungssätze für die fol-gen-den Geschäftsvo
+r-fälle. Geben Sie jew-eils an, welcher
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 664--665
+
+ []
+
+[13]
+
+LaTeX Font Warning: Font shape `TS1/futs/m/sc' undefined
+(Font)              using `TS1/futs/m/n' instead
+(Font)              for symbol `texteuro' on input line 668.
+
+
+Overfull \hbox (3.08592pt too wide) in paragraph at lines 686--686
+ \T1/futs/m/sc/10.95 10. Ein be-trieblich genutzter PKW wird zum Buch-w-ert von
+ 2.000 \TS1/futs/m/sc/10.95 ¿ \T1/futs/m/sc/10.95 auf Ziel verkauft[] 
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 698--699
+
+ []
+
+! Misplaced alignment tab character &.
+<argument> 5. Verbindlichkeiten aus L&
+                                      L an Bank
+l.710 \paragraph
+                {6. Waren 20.000 an Bank 10.800}
+? 
+! Misplaced alignment tab character &.
+<argument> 8. Verbindlichkeiten aus L&
+                                      L an Verbindlichkeiten gegenÃ¼ber Lief...
+l.716 \paragraph
+                {9. Kasse an Privatkonto}
+? 
+! Misplaced alignment tab character &.
+<argument> ...stattung an Verbindlichkeiten aus L&
+                                                  L
+l.724 \paragraph
+                {13. Betriebs- und GeschÃ¤ftsausstattung an Privatkonto}
+? 
+! Misplaced alignment tab character &.
+<argument> 15. Kasse an Forderungen aus L&
+                                          L
+l.730 \paragraph
+                {16. Forderungen aus L&L 4.000, Bank 20.000, Verbindlichkeit...
+
+? 
+! Misplaced alignment tab character &.
+<argument> 16. Forderungen aus L&
+                                 L 4.000, Bank 20.000, Verbindlichkeiten ggÃ...
+l.732 \paragraph
+                {17. Forderungen aus L&L an sonstige betriebliche ErtrÃ¤ge (...
+
+? 
+! Misplaced alignment tab character &.
+<argument> 17. Forderungen aus L&
+                                 L an sonstige betriebliche ErtrÃ¤ge (Provis...
+l.734 \paragraph
+                {18. Verbindlichkeiten aus L&L an Forderungen aus L&L}
+? 
+[15]
+! Misplaced alignment tab character &.
+<argument> 18. Verbindlichkeiten aus L&
+                                       L an Forderungen aus L&L
+l.736 \paragraph
+                {19. Waren an Forderungen aus L&L}
+? 
+! Misplaced alignment tab character &.
+<argument> ...keiten aus L&L an Forderungen aus L&
+                                                  L
+l.736 \paragraph
+                {19. Waren an Forderungen aus L&L}
+? 
+! Misplaced alignment tab character &.
+<argument> 19. Waren an Forderungen aus L&
+                                          L
+l.738 \paragraph
+                {20. BÃ¼romaterial an Kasse}
+? 
+! Misplaced alignment tab character &.
+<argument> 24. Forderungen aus L&
+                                 L an Waren
+l.748 \paragraph
+                {25. Verbindlichkeiten ggÃ¼ KI an Fuhrpark}
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 752--753
+
+ []
+
+[16]
+Overfull \hbox (284.20007pt too wide) in paragraph at lines 788--826
+ \T1/futs/m/sc/10.95 17. Mi-et-zahlun-gen für ver-mi-etete Büroräume gehen auf 
+dem Bankkonto ein[] [] 
+ []
+
+
+Overfull \hbox (25.27321pt too wide) in paragraph at lines 829--830
+\T1/futs/m/n/10.95 Ihnen liegen die un-ten aufge-führte Eröff-nungs-bi-lanz ein
+es Einzelka-uf-manns und die Geschäftsvor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 829--830
+
+ []
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.839 ...s L&L & 65.000 & Verbindlichkeiten aus L&
+                                                  L & 25.000 \\
+? 
+
+Overfull \hbox (88.21484pt too wide) in paragraph at lines 831--848
+[] 
+ []
+
+[17]
+Overfull \hbox (11.49821pt too wide) in paragraph at lines 857--858
+[]\T1/futs/m/n/10.95 Die Rech-nung eines Liefer-an-ten in Höhe von 3.000 \TS1/f
+uts/m/sc/10.95 ¿ \T1/futs/m/n/10.95 wird per Banküber-weisung beglichen 
+ []
+
+
+Overfull \hbox (9.44997pt too wide) in paragraph at lines 862--863
+[]\T1/futs/m/n/10.95 Die Steuer für die be-trieblich genutzten PKW in Höhe von 
+2.700 \TS1/futs/m/sc/10.95 ¿ \T1/futs/m/n/10.95 und die pri-vate Einkom-
+ []
+
+
+Overfull \hbox (19.62306pt too wide) in paragraph at lines 863--864
+[]\T1/futs/m/n/10.95 Wir haben das Zahlungsziel eines Liefer-an-ten über-zo-gen
+ und wer-den da-her mit Verzugszin-
+ []
+
+
+Overfull \hbox (42.79327pt too wide) in paragraph at lines 869--870
+\T1/futs/m/n/10.95 Übernehmen Sie die An-fangs-bestände di-rekt in T-Konten, oh
+ne Eröff-nungs-buchun-gen durchzuführen.
+ []
+
+
+Overfull \hbox (8.443pt too wide) in paragraph at lines 869--870
+\T1/futs/m/n/10.95 Sie die laufenden Buchungssätze für die angegebe-nen Geschäf
+tsvor-fälle im Jahr J1 und verdeut-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 869--870
+
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 873--879
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 882--888
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 891--897
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 900--906
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 909--915
+
+ []
+
+! Misplaced alignment tab character &.
+<argument> Verbindlichkeiten aus L&
+                                   L
+l.916 \underline{Verbindlichkeiten aus L&L}
+                                           
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 918--924
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 927--933
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 936--942
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 945--951
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 954--960
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 963--969
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 972--978
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 981--987
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 990--996
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 999--1005
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1008--1014
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1017--1023
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1026--1032
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1035--1036
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1039--1045
+
+ []
+
+
+Overfull \hbox (26.97043pt too wide) in paragraph at lines 1052--1053
+\T1/futs/m/n/10.95 Buchen Sie die un-ten aufge-führten Geschäftsvor-fälle unter
+ Ver-wen-dung ge-tren-nter Wareneinkaufs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1052--1053
+
+ []
+
+[20]
+! Misplaced alignment tab character &.
+<argument> ...Abnehmer eine Verbindlichkeit aus L&
+                                                  L
+l.1068 \paragraph
+                 {8. Das Gehalt des GeschÃ¤ftsfÃ¼hrers (6.000 â‚¬) wird per ...
+
+? 
+
+Overfull \hbox (3.1174pt too wide) in paragraph at lines 1070--1070
+ \T1/futs/m/sc/10.95 8. Das Gehalt des Geschäfts-führers (6.000 \TS1/futs/m/sc/
+10.95 ¿\T1/futs/m/sc/10.95 ) wird per Banküber-weisung aus-gezahlt[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1077
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1080--1086
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1089--1095
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1098--1104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1107--1108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1111--1117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1120--1126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1129--1135
+
+ []
+
+[21])
+Runaway argument?
+{Umsatzsteuer 19 Buchen Sie die unten aufgefÃ¼hrten GeschÃ¤ftsvorfÃ¤l\ETC.
+! File ended while scanning use of \@xdblarg.
+<inserted text> 
+                \par 
+<*> TBR_Aufgaben_Loesungen.tex
+                              
+? 
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a comma

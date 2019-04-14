@@ -1,0 +1,1413 @@
+\documentclass[paper=a4, fontsize=11pt]{scrartcl} 
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\author{Kim Thuong Ngo}
+\usepackage[T1]{fontenc} 
+\usepackage{fourier} 
+\usepackage{lipsum} 
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{sectsty}
+\usepackage{xcolor}
+\usepackage{wasysym}
+\usepackage{stmaryrd}
+\allsectionsfont{\centering \normalfont\scshape} 
+\usepackage{fancyhdr} 
+\usepackage{cancel}
+\pagestyle{fancyplain} 
+\fancyhead{}
+\fancyfoot[L]{} 
+\fancyfoot[C]{} 
+\fancyfoot[R]{\thepage} 
+\renewcommand{\headrulewidth}{0pt} 
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\headheight}{13.6pt}
+
+\numberwithin{equation}{section} 
+\numberwithin{figure}{section} 
+\numberwithin{table}{section}
+
+\setlength\parindent{0pt}  
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} 
+
+\title{	
+\normalfont \normalsize 
+\textsc{Technik des betrieblichen Rechnungswesen} \\ [25pt] 
+\horrule{0.5pt} \\[0.4cm] 
+\huge Aufgaben und Lösungen\\ 
+\horrule{2pt} \\[0.5cm] 
+}
+
+\author{Kim Thuong Ngo} 
+\date{\normalsize\today} 
+\usepackage{color}
+
+
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+%----------------------------------------------------------------------------------------
+\section{Grundlagen}
+%-------------------------------------------------------------------
+\subsection{rechtliche und ökonomische Zwecke der Rechnungslegung}
+Nennen und erläutern Sie jeweils zwei rechtliche und ökonomische Zwecke der Rechnungslegung. \\
+
+\underline{Rechtliche Zwecke:}
+
+\begin{itemize}
+\item Dokumentationsfunktion: \\
+Breze
+Die lückenlose Erfassung dient der Beweissicherung. Die Bücher können zur Schlichtung von Konflikten vor Gerichten dienen.
+
+\item Anspruchsbemessungsfunktion:
+  \begin{itemize}
+  \item Ausschüttungsbemessungsfunktion \\
+Mit Hilfe der Rechnungslegung wird die Größe "Gewinn" (bzw. "Verlust") ermittelt. Auf  der Basis des Gewinns wird bestimmt, welcher Teil des Vermögens den Eigenen zur Ausschüttung zur Verfügung steht.
+  \item Steuerbemessung: \\
+Die von den Unternehmen zu zahlenden Steuern bemessen sich in Deutschland nach der Größe "Gewinn" (bzw. "Verlust") bei Beachtung der steuerrechtlichen Vorgaben.
+  \item Gläubigerschutz: \\
+Je weniger Vermögen an die Eigner ausgeschüttet wird, desto mehr verbleibt im Unternehmen und steht für die Befriedigung der Ansprüche der Gläubiger zur Verfügung. Das nicht ausgeschüttete Vermögen stellt eine Art "Polster" für Krisenzeiten dar. Je vorsichtiger und konservativer die Größe "Gewinn" (bzw. "Verlust") bestimmt wird, desto geringer die Ausschüttung an die Eigner.
+\end{itemize}
+\end{itemize}
+
+\underline{Ökonomische Zwecke:}
+
+\begin{itemize}
+\item Informationsfunktion: \\
+Die Offenlegung des Jahresabschlusses verringert die Informationssymmetrie zwischen der (internen) Unternehmungsleitung und der (externen) Eigen- und Fremdkapitalgebern. Der Jahresabschluss fasst die Informationen der Rechnungslegung aus den vergangenen Geschäftsjahr zusammen.
+
+\item Anreizfunktion: \\
+Die Rechnungslegung liefert Informationen, an die die Vergütung der Unternehmungsleitung anknüpfen kann. Beispielsweise hat ein Manager einen Anreiz den Gewinn zu steigern, wenn sich seine Vergütung am Gewinn orientiert.
+\end{itemize}
+%-------------------------------------------------------------------
+\subsection{möglicher Widerspruch zwischen Rechnungslegungszwecke und Interesse der Rechnungslegungsadressaten}
+Erläutern Sie inwiefern sich Rechnungslegungszwecke und die Interessen der Rechnungslegungsadressaten widersprechen können. \\
+
+Konfliktäre Interessen der Adressaten und Zwecke der Rechnunglegung: \\
+\begin{itemize}
+\item z.B. Gläubiger, \\
+an einem nicht zu hohen Schuldenstand des Unternehmens interessiert \\
+$\rightarrow$ vorsichtige Rechnungslegung führt zur geringeren Ausschüttungen
+
+\item z.B. Eigenkapitalgeber,
+  \begin{itemize}
+  \item fordern im Gegensatz zu Gläubigern Ausschüttungen \\
+$\rightarrow$ weniger vorsichtige Rechnungslegung
+  \item fordern Informationen für Kapitalanlagenentscheidungen, die nciht durch eine (übermäßige) vorsichtige Rechnungslegung verzerrt sein sollten
+  \item fordern für Kapitalanlagenentscheidungen eher zukunftsoriertierte Informationen
+\end{itemize}
+
+\item z.B Fiskus/ Gerichte: \\
+Eher an justiziablen, vergangenheitsorientierten Größen interessiert \\
+$\rightarrow$ Rechnungslegung mit eingeschränkten Ermessungsspielraum der Unternehmensführung \\
+$\rightarrow$ problematisch:  benötigte Informationen unterschiedlicher Natur \\
+  \begin{itemize}
+  \item vergangenheitsorientiert (Dokumentation) \\
+zukunftsorientiert (Information)
+  \item für interne Zwecke (retrospektiver Soll-Ist-Vergleich) \\
+für externe Zwecke (Information für Externe, z.b. Steuererhebung)
+\end{itemize}
+\end{itemize}
+%-------------------------------------------------------------------
+\subsection{Informationsfunktion der Rechnungslegung}
+Erläutern Sie die (externe) Informationsfunktion der Rechnungslegung \\
+
+\underline{Ausgangspunkt:}
+
+Informationsassymetrie zwischen Managern und Eignern börsenorientierter Publikumsgesellschaften aufgrund von der Trennung von Eigentum und Geschäftsführung.
+Eigenkapitalgeber stellen externe Adressaten der Recnungslegung dar. \\
+
+\underline{Informationsvorprung des Managers:}
+
+\begin{itemize}
+  \item künftige Erfolge der Projekte
+  \item das eigene Verhalten
+  \item Erfolge bereits durchgeführter Projekte
+\end{itemize}
+
+Informationen im Jahresabschluss dienen dem Abbau der Informationassymetrie durch:
+
+\begin{itemize}
+  \item Bereitstellung der Informationen für Kapitalanlageentscheidungen
+  \item Rechenschaftslegung
+\end{itemize}
+
+Ziel: Gewährleistung der Funktionsfähigkeit des Kapitalmarktes:
+
+\begin{itemize}
+  \item geringere Informationsassymetrie reduziert die Notwendigkeit der Kapitalmarktteilnehmer
+  sich gegen Übervortelung durch das Management zu schützen, was Kosten verursacht
+  \item Kosten können prohibitiv hoch sein, sodass der Kapitalmarkt zusammenbricht
+\end{itemize}
+
+%-------------------------------------------------------------------
+\subsection{Rechnungslegungszweck}
+Erläutern Sie, wie der Rechnungslegungszweck der Anspruchsbemessung durch \S 58 AktG konkretisiert wird. \\
+%-------------------------------------------------------------------
+\subsection{Teilbereiche des Rechnungswesens}
+Nennen und erläutern die zwei grundlegenden Teilbereiche des Rechnungswesens. \\
+
+\underline{Internes Rechnungswesens}
+\begin{itemize}
+  \item Allgemein :\\
+  Informationsbereitstellung zur Entscheidungsfindung für Unternehmensführung und
+  Controlling (Selbstinformation)
+  \item Teilbereiche:
+  \begin{itemize}
+    \item Kostenrechnung:
+    \begin{itemize}
+      \item Ziel: \\
+      interne Rechenschaftslegung einzelner Abteilungen und Ermittlungen von Wertansätzen
+      (gilt auch für externes Rechnungswesen)
+      \item konkret:
+      \begin{itemize}
+        \item Kostenarten (welche Kosten?)
+        \item Kostenstellenrechnung (wo fallen Kosten an?)
+        \item Kostenträgerrechnung (wofür?/ wie hoch?)
+      \end{itemize}
+    \end{itemize}
+    \item Statistiken/ Vergleichsrechnungen: \\
+    Sammlung und Aufbereitung interner und externer Daten für
+    Unternehmensleitung (Umsatz, NAchfrage, ...)
+    \item Planungsrechnung: \\
+    Verwendung interner und externer Daten zur Prognose der künftigen Entwicklungen \\
+    $\rightarrow$ Wirtschaftlichkeitsrechnung, Produktions- und Investitionsentscheidungen
+  \end{itemize}
+\end{itemize}
+
+\underline{externes Rechnungswesen:}
+
+\begin{itemize}
+  \item Informationsbereitstellung für externe Adressaten (z.B. Eigenkapitalgeber)
+  \item eine alternative Beziehung: "Finanzbuchahltung" (FB)
+  \item FB besteht aus:
+  \begin{itemize}
+    \item Buchführung
+    \item Inventar
+    \item Jahresabschluss: Bilanz (= Vermögensübersicht), Gewinn- und Verlustrechnung
+    \item Sonderbilanz
+  \end{itemize}
+\end{itemize}
+
+Starke gesetzliche Reglementierung durch Vorschriften!!
+%-------------------------------------------------------------------
+\subsection{Finanzbuchhaltung}
+Erläutern Sie, was unter Finanzbuchhaltung zu verstehen ist. \\
+%-------------------------------------------------------------------
+\subsection{induktive/ deduktive Ableitung von Grundsätzen ordnungsmäßiger Buchführung (GoB)}
+Erläutern Sie kurz, was unter induktiver und deduktiver Ableitung von Grundsätzen ordnungsgemäßer Buchführung (GoB) zu verstehen ist. \\
+%-------------------------------------------------------------------
+\subsection{Stromgrößen und Bestandsgrößen bei Geschäftsvorfällen}
+Geben SIe zu jedem Geschäftsvorfall an, welche Stromgrößen betroffen sind und welche Bestandsgrößen sich in welche Richtung verändern : \\
+
+\paragraph{1.Barverkauf von Handelswaren zum Wareneinkaufspreis}
+
+\paragraph{2. Erhalt von Mietzahlungen}
+
+\paragraph{3. Bareinkauf von Rohstoffen, die gelagert werden}
+
+\paragraph{4. Kauf eines LKW auf Ziel}
+
+\paragraph{5. Wertaufholung einer zuvor außerplanmäßig abgeschriebenen Maschine}
+
+\paragraph{6. Kauf von Treibstoff auf Ziel, der unverzüglich verbraucht wird}
+
+\paragraph{7. Barverkauf eine betrieblich genutzten PKW zum Buchwert}
+
+\paragraph{8. Barverkauf einer Maschine}
+
+\paragraph{9. Tilgung eines Kredits}
+
+\paragraph{10. Verkauf einer Maschine mit einem Buchwert von Null auf Ziel}
+
+\paragraph{11. Kauf von Rohstoffen, die gelagert werden auf Ziel}
+
+\paragraph{12. Auszahlungen von Löhnen}
+
+\paragraph{13. Aufnahme eines Kredits}
+
+\paragraph{14. Verkauf von Handelswaren zum Wareneinkaufspreis auf Ziel}
+
+\paragraph{15. Verkauf von Büromöbeln zum Buchwert auf Ziel}
+
+\paragraph{16. Planmäßige Abschreibung einer Maschine}
+
+%-------------------------------------------------------------------
+\subsection{Beispiele für Geschäftsvorfälle}
+Im Folgenden sind Kombinationen von Bestandsveränderungen und/ oder Stromgrößen angegeben, die zu Bestandsveränderungen führen bzw. nicht führen. Geben Sie für jeden Fall ein Beispiel für einen passenden Geschäftsvorfall an: \\
+
+\paragraph{1. Zahlungsmittel sinken, keine Ausgabe}
+
+\paragraph{2. Auszahlung, Ausgabe, Reinvermögen unverändert}
+
+\paragraph{3. Einzahlung, Einnahme, Reinvermögen unverändert}
+
+\paragraph{4. Geldvermögen steigt, Reinvermögen unverändert, keine Einzahlung}
+
+\paragraph{5. Ausgabe, keine Auszahlung, Reinvermögen unverändert}
+
+\paragraph{6. Reinvermögen unverändert, Einzahlung, Geldvermögen steigt}
+
+\paragraph{7. Geldvermögen und Reinvermögen sinken, keine Auszahlung}
+
+\paragraph{8. Geldvermögen unverändert, Aufwand}
+
+\paragraph{9. Geldvermögen und Reinvermögen sinken, kein Aufwand}
+
+\paragraph{10. Reinvermögen und Geldvermögen steigen, EInzahlung}
+
+\paragraph{11. Zahlungsmittel und Geldvermögen sinken, kein Aufwand}
+
+\paragraph{12. Reinvermögen steigt, keine Einzahlung, Geldvermögen steigt}
+
+\paragraph{13. Ertrag, keine Einnahme}
+ 
+\paragraph{14. Einzahlung, keine Einnahme, Reinvermögen unverändert}
+
+\paragraph{15. Einnahme, Reinvermögen und Zahlungsmittel unverändert}
+
+\paragraph{16. Ausgabe, kein Aufwand, keine Auszahlung}
+
+%----------------------------------------------------------------------------------------
+\section{System der doppelten Buchführung}
+%-------------------------------------------------------------------
+\subsection{System der Doppik}
+Erläutern Sie das System der Doppik \\
+%-------------------------------------------------------------------
+\subsection{Inventur und Bilanzwert}
+Ihnen liegt folgende Übersicht über den Anfangsbestand sowie Zu- und Abgänge an Tennisschlägern eines Sportsgeschäfts vor. Der Bilanzstichtag entspricht dem 31.12. Der Wert bzw. der Verkaufs- oder Einkaufspreis eines Tennisschlägers beträgt konstant 250 €. Ein Kassenbestand, Bankguthaben, Forderungen oder VErbindlichkeiten bleiben unberücksichtigt. \\
+
+\begin{tabular}{c|c|c}
+\hline
+Datum & Anfangsbestand & Anzahl \\
+          & Bestandsveränderung & \\
+\hline
+ 01.01.J1 & Anfangsbestand & 50 Kartons mit je 5 Schlägern \\
+ \hline
+ Januar J1 & Verkauf & 2 Schläger \\
+ \hline  
+  Februar J1 & Verkauf & 8 Schläger \\
+ \hline   
+  März J1 & Verkauf & 28 Schläger \\
+ \hline   
+  31.03.J1 & Lieferung & 10 Kartons mit je 5 Schlägern \\
+ \hline   
+  April J1 & Verkauf & 50 Schläger \\
+ \hline            
+  Mai J1 & Verkauf & 77 Schläger \\
+ \hline   
+  Juni J1 & Verkauf & 103 Schläger \\
+ \hline   
+  10.07.J1 & Lieferung & 70 Kartons mit je 3 Schlägern \\
+ \hline   
+  11. - 31.07.J1 & Verkauf & 30 Schläger \\
+ \hline   
+  August J1 & Verkauf & 20 Schläger \\
+ \hline  
+  September J1 & Verkauf & 23 Schläger \\
+ \hline   
+  Oktober J1 & Verkauf & 10 Schläger \\
+ \hline   
+  November J1 & Verkauf & 8 Schläger \\
+ \hline   
+  30.11.J1 & Lieferung & 50 Kartons mit je 3 Schlägern \\
+ \hline   
+  Dezember J1 & Verkauf & 25 Schläger \\
+ \hline  
+  Januar J2 & Verkauf & 1 Schläger \\
+ \hline   
+  31.01.J2 & Lieferung & 10 Kartons mit je 3 Schlägern \\
+ \hline   
+  Februar J2 & Verkauf & 5 Schläger \\
+ \hline   
+  März J2 & Verkauf & 6 Schläger \\
+ \hline   
+\end{tabular} 
+\\
+
+\paragraph{a)}
+
+Erstellen Sie das Inventar zum Bilanzstichtag im Jahr J1. Führen Sie eine klassische Stichtagsinventur durch. \\
+
+\begin{tabular}{c|c}
+\hline
+Anfangsbestand am 01.01.J1 & \\
+\hline
+Januar J1 & \\
+\hline
+Febuar J1 & \\
+\hline 
+März J1 & \\
+\hline
+31.03.J1 & \\
+\hline
+April J1 & \\
+\hline
+Mai J1 & \\
+\hline
+Juni J1 & \\
+\hline
+10.07.J1 & \\
+\hline
+11. - 31.07.J1 & \\
+\hline
+August J1 & \\
+\hline
+September J1 & \\
+\hline
+Oktober J1 & \\
+\hline
+November J1 & \\
+\hline
+30.11.J1 & \\
+\hline
+Dezember J1 & \\
+\hline
+Endbestand 31.12.J1 & \\
+\hline
+\end{tabular}
+
+\paragraph{b)}
+
+Führen Sie eine permanente Inventur auf den Bilanzstichtag im Jahr J1 durch. Der Inventurtag fällt auf den 30.06.J1. \\
+
+\begin{tabular}{c|c}
+\hline
+Anfangsbestand am 01.01.J1 & \\
+\hline
+Januar J1 & \\
+\hline
+Febuar J1 & \\
+\hline 
+März J1 & \\
+\hline
+31.03.J1 & \\
+\hline
+April J1 & \\
+\hline
+Mai J1 & \\
+\hline
+Juni J1 & \\
+\hline
+Bestand zum 30.06.J1 & \\
+\hline
+\end{tabular}
+\\
+
+\begin{tabular}{c|c}
+\hline
+10.07.J1 & \\
+\hline
+11. - 31.07.J1 & \\
+\hline
+August J1 & \\
+\hline
+September J1 & \\
+\hline
+Oktober J1 & \\
+\hline
+November J1 & \\
+\hline
+30.11.J1 & \\
+\hline
+Dezember J1 & \\
+\hline
+Differenz & \\
+\hline
+\end{tabular}
+
+\paragraph{c)}
+
+Ermitteln Sie den Bilanzwert der Tennisschläger zum Bilanzstichtag im Jahr J1. Der Stichtag für das besondere Inventar, der mit dem Inventurtag zusammenfällt, ist der 28.02.J2. \\
+
+\begin{tabular}{c|c}
+\hline
+Bestand zum 31.12.J1 & \\
+\hline
+Januar J2 & \\
+\hline
+31.01.J2 & \\
+\hline
+Februar J2 & \\
+\hline
+Endbestand zum 28.02.J2 & \\
+\hline
+\end{tabular}
+\\
+
+\begin{tabular}{c|c}
+\hline
+Februar J2 & \\
+\hline
+zum 31.01.J2 & \\
+\hline
+Januar J2 & \\
+\hline 
+Differenz & \\
+\hline
+\end{tabular}
+
+\paragraph{d)}
+
+Ermitteln Sie den Bilanzwert der Tennisschläger zum Bilanzstichtag im Jahr J1. Der Stichtag für das besondere Inventar ist der 31.10.J1. Der 31.08.J1 ist der Inventurtag (permanente Inventur auf den Stichtag des besonderen Inventars).  \\
+
+\begin{tabular}{c|c}
+\hline
+Bestand zum 30.06.J1 & \\
+\hline
+Juli J1 & \\
+\hline
+11. - 31.07.J1 & \\
+\hline
+August J1 & \\
+\hline
+Endbestand zum 31.08.J1 & \\
+\hline
+\end{tabular}
+\\
+
+\begin{tabular}{c|c}
+\hline
+September J1 & \\
+\hline
+Oktober J1 & \\
+\hline
+Differenz & \\
+\hline
+\end{tabular}
+\\
+
+\begin{tabular}{c|c}
+\hline
+November J1 & \\
+\hline
+zum 31.11.J1 & \\
+\hline
+Dezember J1 & \\
+\hline
+Differenz & \\
+\hline
+\end{tabular}
+
+%-------------------------------------------------------------------
+\subsection{Aktivtausch, Passivtausch, Bilanzverlängerung und Bilanzverkürzung}
+Erläutern Sie die Begriffe Aktivtausch, Passivtausch, Bilanzverlängerung und Bilanzverkürzung und geben Sie jeweils zwei Beispiele in Form eines erfolgsneutralen Buchungssatzes an. \\
+%-------------------------------------------------------------------
+\subsection{Buchungen}
+Ihnen liegen die unten aufgeführte Eröffnungsbilanz und die (erfolgsneutralen) Geschäftsvorfälle des Geschäftsjahres J1 vor. Führen Sie (1) die Eröffnungsbuchungen, (2) die laufenden Buchungen und (3) die Abschlussbuchungen durch. Bilden Sie die Geschäftsvorfälle mit Buchungssätzen ab und geben Sie die berührten Konten in T-Konten-Form an. Die Umsatzsteuer ist zu vernachlässigen. \\
+
+\underline{Eröffnungsbilanz zum 01.01.J1 in €}
+
+\begin{tabular}{cc|cc}
+\hline
+Aktiva & &&  Passiva \\
+\hline
+Grundstücke und Bauten & 100.000 & Eigenkapital & 160.000 \\
+Betriebs- und & 5.000 & Verbindlichkeiten ggü KI & 55.000 \\
+Geschäftsausstattungen & & & \\
+Waren & 85.000 & Verbindlichkeiten aus & 30.000 \\
+ & & Lieferungen und Leistungen & \\
+ Forderungen aus L-L & 6.000 & & \\
+ Kasse & 45.000 & & \\
+ Bank & 245.000 & & 245.000 \\
+ \hline
+\end{tabular}
+\\
+
+\underline{Geschäftsvorfälle im Jahr J1}
+
+ \begin{enumerate}
+ \item Ein betrieblich genutzter PKW wird zum Preis von 10.000 € gekauft. Der Kaufpreis wird in Höhe von 7.000 € per Banküberweisung beglichen. Der Rest wird bar bezahlt.
+ \item Ein Kunde begleicht eine Forderung. Er überweist 2.000 € auf das Bankkonto. 
+ \item Es wird ein Darlehen in Höhe von 30.000 € aufgenommen. Der Darlehensgeber überlässt dem Unternehmen eine Forderung gegenüber Dritten in Höhe von 5.000 €, Wertpapiere im Wert von 10.000 € sowie Barmittel in Höhe von 7.000 €. Der Rest wird auf das Bankkonto überwiesen.
+ \item Die Wertpapiere werden zu einem Preis von 10.000 € (= Buchwert der Wertpapiere) verkauft. Bankspesen fallen nicht an. Der Verkaufserlös wird dem Bankkonto gutgeschrieben.
+ \item Durch Bezahlung einer Rate in Höhe von 5.000 € per Banküberweisung wird ein Teil des Darlehens getilgt (Zinsen sind zu vernachlässigen).
+ \item Büromöbel im Wert von 1.500 € werden gekauft und bar bezahlt.
+ \item Ein Lieferant wandelt seine Forderung in Höhe von 12.000 € in ein Darlehen um.
+ \item Waren im Wert von 20.000 € werden zum Buchwert verkauft. Der Kunde überweist den Rechnungsbetrag auf das Bankkonto.
+ \item Es werden 300 € aus der Kasse auf das Bankkonto eingezahlt.
+ \item Das Unternehmen kauft Waren im Wert von 4.000 € ein. Der Lieferant erhält 1.000 € in bar. Der Rest wird zur Hälfte kreditiert und zur Hälfte per Banküberweisung beglichen.
+ \item Forderungen in Höhe von 2.500 € werden bar beglichen.
+ \item Das Unternehmen überweist 7.500 € an seine Lieferanten und reduziert dadurch seine Lieferantenverbindlichkeiten.
+ \item Ein Gebäude wird zum Buchwert von 45.000 € verkauft. Mit dem Verkauf geht eine Darlehensschuld in Höhe von 10.000 € auf dem Käufer über. Das Unternehmen erhält den restlichen Kaufpreis per Banküberweisung.
+ \end{enumerate}
+\underline{Eröffnungsbilanzkonto}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+ 
+\end{tabular}
+\\
+
+\underline{Grund und Bauten}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Bertriebs- und Geschäftsausstattung}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Waren}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+\underline{Ford aus LuL}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Kasse}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{EK-Konto}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Verbindung ggü KI}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular} 
+\\
+\underline{Verbindung aus LuL}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Fuhrpark}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Wertpapiere des UV}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Bank}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Schlussbilanzkonto}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+%-------------------------------------------------------------------
+\subsection{Buchungssätze}
+Bilden Sie die Buchungssätze für die folgenden Geschäftsvorfälle. Geben Sie jeweils an, welcher der vier Grundfälle erfolgsneutraler Geschäftsvorfälle vorliegt. Steuern sind zu vernachlässigen. \\
+
+\paragraph{1. Barabhebung vom Bankkonto in Höhe von 1.000 €}
+
+\paragraph{2. Bareinlage des Inhabers in Höhe von 25.000 €}
+
+\paragraph{3. Die Hausbank sagt uns einen Kredit in Höhe von 12.000 € zu}
+
+\paragraph{4. Der Kreditvertrag wird unterzeichnet und die 12.000 € auf das Firmenkonto überwiesen}
+
+\paragraph{5. Zielkauf von Waren im Wert von 750 €}
+
+\paragraph{6. Rückzahlung eines Darlehens in Höhe von 75.000 €}
+
+\paragraph{7. Banküberweisung an einen Lieferanten in Höhe von 1.700 €}
+
+\paragraph{8. Ein Lieferant wandelt seine Forderung in ein Darlehen in Höhe von 4.000 € um}
+
+\paragraph{9. Es werden Wertpapiere des UV im Wert von 2.750 € gegen Wertpapiere des AV eingetauscht}
+
+\paragraph{10. Ein betrieblich genutzter PKW wird zum Buchwert von 2.000 € auf Ziel verkauft}
+
+\paragraph{11. Der Käufer des PKW begleicht die Rechnung per Banküberweisung}
+
+\paragraph{12. Eine Kundenforderung im Wert von 7.000 € wird an einen Lieferanten abgetreten}
+
+\paragraph{13. Es wird ein betrieblich genutzter PKW zum Preis von 25.000 € gekauft. Ein älteres Modell wird dafür zum Buchwert in Zahlung gegeben. Die restlichen 17.500 € werden per Banküberweisung bezahlt}
+
+\paragraph{14. Mit einem Zulieferer wird ein langfristiger Liefervertrag mit einem Volumen von 50.000 € abgeschlossen}
+
+\paragraph{15. Eine neue leere Lagerhalle im Wert von 100.000 € wird erworben. Die darauf lastende Hypothek in Höhe von 20.000 € wird übernommen, der Rest wird zu einem Viertel kreditiert und zu drei Vierteln per Banküberweisungen bezahlt}
+
+%-------------------------------------------------------------------
+\subsection{Buchungssätze II}
+Geben Sie jeweils an, welcher Geschäftsvorfall zu den folgenden Buchungssätzen führt: \\
+
+\paragraph{1. Kasse an Waren}
+
+\paragraph{2. Bank an Wertpapiere des UV}
+
+\paragraph{3. Privatkonto an Bank}
+
+\paragraph{4. Bank an Zinserträge}
+
+\paragraph{5. Verbindlichkeiten aus LuL an Bank}
+
+\paragraph{6. Waren 20.000 an Bank 10.800}
+
+\paragraph{7. Privatkonto an Fuhrpark}
+
+\paragraph{8. Verbindlichkeiten aus LuL an Verbindlichkeiten gegenüber Lieferanten (Darlehen)}
+
+\paragraph{9. Kasse an Privatkonto}
+
+\paragraph{10. Grundstücke an Bank}
+
+\paragraph{11. Kasse an Bank}
+
+\paragraph{12. Betriebs- und Geschäftsausstattung an Verbindlichkeiten aus LuL}
+
+\paragraph{13. Betriebs- und Geschäftsausstattung an Privatkonto}
+
+\paragraph{14. Mietaufwand an Bank}
+
+\paragraph{15. Kasse an Forderungen aus LuL}
+
+\paragraph{16. Forderungen aus LuL 4.000, Bank 20.000, Verbindlichkeiten ggü KI 36.000 an Grundstücke und Bauten 60.000}
+
+\paragraph{17. Forderungen aus LuL an sonstige betriebliche Erträge (Provisionen)}
+
+\paragraph{18. Verbindlichkeiten aus LuL an Forderungen aus LuL}
+
+\paragraph{19. Waren an Forderungen aus LuL}
+
+\paragraph{20. Büromaterial an Kasse}
+
+\paragraph{21. Verbindlichkeiten ggü KI X an Verbindlichkeiten ggü KI Y}
+
+\paragraph{22. sonstige betriebliche Aufwendungen an Kasse}
+
+\paragraph{23. Betriebs- und Geschäftsausstattung an Waren}
+
+\paragraph{24. Forderungen aus LuL an Waren}
+
+\paragraph{25. Verbindlichkeiten ggü KI an Fuhrpark}
+
+%-------------------------------------------------------------------
+\subsection{Bilanzpositionen}
+Welche Bilanzpositionen verändern sich durch die nachfolgende Geschäftsvorfälle? Handelt es sich um einen Aktivtausch, einen Passivtausch, eine Bilanzverlängerung oder eine Bilanzverkürzung? Ist der Geschäftsvorfall erfolgswirksam? \\
+
+\paragraph{1. Wareneinkauf gegen Barzahlung}
+
+\paragraph{2. Warenverkauf unter Einkaufspreis gegen Banküberweisung}
+
+\paragraph{3. Privatentnahme in Bar}
+
+\paragraph{4. Ein Kunde begleicht eine offene Rechnung per Banküberweisung}
+
+\paragraph{5. Kauf eines PC per Banküberweisung (bei Bankguthaben)}
+
+\paragraph{6. Bareinzahlung bei der Bank (bei Bankschuld)}
+
+\paragraph{7. Überweisung der KFZ-Steuer für betrieblich genutzte PKW}
+
+\paragraph{8. Der Eigentümer bringt einen privaten PKW zur betrieblichen Nutzung ein}
+
+\paragraph{9. Warenverkauf über Einstandspreis auf Ziel}
+
+\paragraph{10. Die Hausbank reicht uns einen Kredit aus}
+
+\paragraph{11. Die Bank zieht die Zinsen für den Kredit von unserem Konto ein}
+
+\paragraph{12. Der Eigner überweist die Miete für seine Privatwohnung von Bankkonto}
+
+\paragraph{13. Löhne werden in bar ausgezahlt}
+
+\paragraph{14. Die erste Tilgungsrate des Kredits wird an die Bank überwiesen}
+
+\paragraph{15. Die Wartung eines Lieferwagens wird bar bezahlt}
+
+\paragraph{16. Die betriebliche Stromrechnung wird per Banküberweisung beglichen}
+
+\paragraph{17. Mietzahlungen für vermietete Büroräume gehen auf dem Bankkonto ein}
+
+\begin{tabular}{c|c|c|c|c}
+Nr. & Bilanzposition + & Bilanzposition - & Art & erfolgswirksam? \\
+\hline
+1 & & & & \\
+\hline
+2 & & & & \\
+\hline
+3 & & & & \\
+\hline
+4 & & & & \\
+\hline
+5 & & & & \\
+\hline
+6 & & & & \\
+\hline
+7 & & & & \\
+\hline
+8 & & & & \\
+\hline
+9 & & & & \\
+\hline
+10  & & & & \\
+\hline
+11  & & & & \\
+\hline
+12 & & & & \\
+\hline
+13 & & & & \\
+\hline
+14 & & & & \\\\
+\hline
+15 & & & & \\
+\hline
+16 & & & & \\\\
+\hline
+17 & & & & \\
+\hline
+\end{tabular}
+
+%-------------------------------------------------------------------
+\subsection{Konten und Schlussbilanz}
+Ihnen liegen die unten aufgeführte Eröffnungsbilanz eines Einzelkaufmanns und die Geschäftsvorfälle J1 vor. Alle anderen als die angesprochenen Steuerarten sind zu vernachlässigen. \\
+
+Eröffnungsbilanz zum 01.01.J1 in € \\
+\begin{tabular}{cc|cc}
+Aktiva & & & Passiva \\
+\hline
+Fuhrpark & 50.000 & Eigenkapital & 100.000 \\
+\hline
+Betriebs- Geschäftsausstattung & 35.000 & Verbindlichkeiten ggü Kreditinstituten & 50.000 \\
+\hline
+Forderungen aus L&L & 65.000 & Verbindlichkeiten aus L&L & 25.000 \\
+\hline
+Bank & 20.000 &  & \\
+\hline
+Kasse & 5.000 & & \\
+\hline
+ & 175.000 & & 175.000 \\
+\hline
+\end{tabular}
+
+\underline{Geschäftsvorfälle im Jahr J1:} 
+
+\begin{enumerate}
+\item Ein Kunde überweist zur Begleichung einer Rechnung 5.000 € auf das Bankkonto
+\item Der Eigner bringt einen bisher privaten genutzten PKW im Wert von 10.000 € zur betrieblichen Nutzung ein
+\item Mietzahlungen in Höhe von 1.200 € werden per Banküberweisungen vorgenommen
+\item Mietzahlungen für unvermietete Räume in Höhe von 300 € gehen auf dem Bankkonto ein
+\item Das Darlehen in Höhe einer Tilgunsgsrate von 5.000 € zurückgezahlt. Gleichzeitig überweisen wir der Bank Zinsen in Höhe von 2.500 €
+\item Die Rechnung eines Lieferanten in Höhe von 3.000 € wird per Banküberweisung beglichen
+\item Die Bank schreibt uns Zinsen in Höhe von 20 € gut
+\item Briefmarken im Wert von 50 € werden bar bezahlt
+\item Ein Bürostuhl im Wert von 100 € wird angeschafft und bar bezahlt
+\item Gehälter in Höhe von 2.000 € überwiesen
+\item Die Steuer für die betrieblich genutzten PKW in Höhe von 2.700 € und die private Einkommensteuer des Eigners in Höhe von 6.000 € werden vom Firmenkonto überwiesen
+\item Wir haben das Zahlungsziel eines Lieferanten überzogen und werden daher mit Verzugszinsen in Höhe von 25 € belastet
+\item Aufgrund der erfolgreichen Vermittlung von Geschäften gehen 16.500 € Provisionen auf dem Bankkonto ein.
+\end{enumerate}
+
+%-------------------------------------------------
+\subsubsection{Konten}
+Übernehmen Sie die Anfangsbestände direkt in T-Konten, ohne Eröffnungsbuchungen durchzuführen. Richten Sie auch erforderliche Erfolgskonten und gegebenenfalls ein Privatkonto ein. Bilden Sie die laufenden Buchungssätze für die angegebenen Geschäftsvorfälle im Jahr J1 und verdeutlichen Sie die Buchungen durch Eintragungen in den T-Konten. \\
+
+\underline{Fuhrpark}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{EK-Konto}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Betriebs- Güterausstattungen}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Verbindlichkeiten ggü KI}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Forderungen aus Lieferungen und Leistungen}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Verbindlichkeiten aus L&L}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Bank}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Privatkonto}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Kasse}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Mietaufwand}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Sonstige Erlöse (Provisionen)}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Zinsaufwand}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Mieterträge}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Lohn- und Gehaltsaufwand}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Zinserträge}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{KFZ-Steuer}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Büromaterial}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{GuV-Konto}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+%-------------------------------------------------
+\subsubsection{Schlussbilanz}
+Schließen Sie alle Konten ab und erstellen Sie die Schlussbilanz zum 31.12.J1. Die Abschlussbuchungen der Bestandskonten mit Ausnahme des Privat- und Eigenkapitalkontos sind nicht explizit vorzunehmen. \\
+
+\underline{Schlussbilanz zum 31.12.J1 in €}
+
+\begin{tabular}{cc|cc}
+\hline
+Aktiva & & & Passiva \\
+\hline
+\end{tabular}
+\\
+
+%----------------------------------------------------------------------------------------
+\section{Laufende Geschäftsvorfälle}
+%-------------------------------------------------------------------
+\subsection{Warenverkauf}
+%-------------------------------------------------
+\subsubsection{Wareneinkaufs- und Warenverkaufskonto}
+Buchen Sie die unten aufgeführten Geschäftsvorfälle unter Verwendung getrennter Wareneinkaufs- und Warenverkaufskonten. Die Umsatzsteuer ist zu vernachlässigen. Der Warenanfangsbestand beträgt 75.000 €. \\
+ 
+\paragraph{1. Verkauf von Waren auf Ziel im Wert von 10.000 € laut Ausgangsrechnung}
+
+\paragraph{2. Zahlung von Kreditzinsen in Höhe von 1.200 € per Banküberweisung}
+
+\paragraph{3. Kauf von Waren gegen Barzahlung im Wert von 2.500 € laut Eingangsrechnung}
+
+\paragraph{4. Der Eigentümer entnimmt 1.000 € aus der Kasse}
+
+\paragraph{5. Zielkauf von Waren im Wert von 20.000 € laut Eingangsrechnung}
+
+\paragraph{6. Der Kunde aus Geschäftsvorfall 1. begleicht sein Rechnung per Banküberweisung}
+
+\paragraph{7. Verkauf von Waren im Wert von 17.000 € laut Ausgangsrechnung. Zum Ausgleich übernimmt der Abnehmer eine Verbindlichkeit aus LuL}
+
+\paragraph{8. Das Gehalt des Geschäftsführers (6.000 €) wird per Banküberweisung ausgezahlt}
+
+\paragraph{9. Überweisungen der Rechnung aus Vorfall 5. vom Bankkonto}
+
+\paragraph{10. Barkauf von Waren im Wert von 5.000 € laut Eingangsrechnung}
+
+%-------------------------------------------------
+\subsubsection{Warenkonto nach Nettomethode}
+Schließen Sie die Warenkonten nach der Nettomethoden ab. Der Endbestand laut Inventur beträgt 70.000 €. Stellen Sie das Wareneinkaufs-, Warenverkaufs- und GuV-Konto in T-Konten-Form dar. \\
+
+\underline{Wareneinkauf}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Warenverkauf}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{GuV-Konto}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+%-------------------------------------------------
+\subsubsection{Warenkonto nach Bruttomethode}
+Schließen Sie die Warenkonten nach der Bruttomethode ab. Der Endbestand laut Inventur beträgt 70.000 €. Stellen Sie das Wareneinkaufs-, Warenverkaufs- und GuV-Konto in T-Konten-Form dar. \\
+
+\underline{Wareneinkauf}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Warenverkauf}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{GuV-Konto}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+%-------------------------------------------------
+\subsubsection{Nettomethode und Bruttomethode}
+Erläutern Sie den Vorteil der Brutto- gegenüber der Nettomethode beim Abschluss getrennter Warenkonten. 
+%-------------------------------------------------------------------
+\subsection{Umsatzsteuer}
+%-------------------------------------------------
+\subsubsection{Umsatzsteuer 19 %}
+Buchen Sie die unten aufgeführten Geschäftsvorfälle. Gehen Sie generell von einem Umsatzsteuersatz in Höhe von $19 \%$ aus.
+
+\paragraph{1. Barkauf von Waren zum Bruttowert von 7.140 €}
+
+\paragraph{2. Barkauf von Büromaterial (Toner) im Wert von 300 € (netto)}
+
+\paragraph{3. Kauf eines Laptops per Banküberweisung im Wert von 500 € zuzüglich USt.}
+
+\paragraph{4. Waren im Wert von 2.000 € (netto) werden auf Ziel verkauft}
+
+\paragraph{5. Wir verkaufen Waren (bar) im Wert von 3.570 € inklusive USt.}
+
+\paragraph{6. Ein Kunde begleicht eine Rechnung. Er überweist 4.760 €.}
+
+\paragraph{7. Barkauf von Schreibtischen. Die Umsatzsteuer beträgt 190 €}
+
+%-------------------------------------------------
+\subsubsection{Umsatzsteuerzahllast Zwei-Konten-Methode}
+Ermitteln Sie die Umsatzsteuerzahllast nach der Zwei-Konten-Methode. Stellen Sie die Steuerkonten in T-Konten-Form dar. Buchen Sie auch die Steuerzahlung bzw. eine Erstattung durch das Finanzamt per Banküberweisung. \\
+
+\underline{Vorsteuer}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{berechnete USt}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+%-------------------------------------------------
+\subsubsection{Umsatzsteuerzahllast Drei-Konten-Methode}
+Ermitteln Sie die Umsatzsteuerzahllast nach der Drei-Konten-Methode. Stellen Sie die Steuerkonten in T-Konten-Form dar. Buchen Sie auch die Steuerzahlung bzw. eine Erstattung durch das Finanzamt per Banküberweisung. \\
+
+\underline{Vorsteuer}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{berechnete USt}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{USt-Verrechnungen}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+%-------------------------------------------------
+\subsubsection{Buchungssätze}
+Geben Sie die Buchungssätze für die Fälle unter b) und c) an, wenn der Voranmeldezeitraum zum Bilanzstichtag endet und die Steuerzahlung bzw. eine Erstattung erst im neuen Jahr stattfindet.
+
+%-------------------------------------------------------------------
+\subsection{Buchungssätze}
+Bilden Sie die Buchungssätze für die nachstehend aufgeführten Geschäftsvorfälle. Gehen Sie von einer Umsatzsteuer von $10 \%$ aus. Skonti sind nach der Bruttomethode zu buchen. \\
+
+\paragraph{1.}
+Eine Kunde begleicht eine Rechnung durch Banküberweisung. Er zieht $3 \%$ Skonto ab. Der (Brutto-) Rechnungsbetrag lautet über 4.400 €. \\
+
+\paragraph{2.}
+Gewerbesteuer in Höhe von 800 € und Löhne in Höhe von 5.000 € werden per Banküberweisungen gezahlt. \\
+
+\paragraph{3.}
+Wir kaufen Waren im Wert von 16.500 € (brutto) auf Ziel. Bei Zahlung innerhalb von 10 Tagen ist $2 \%$ Skonto abzuziehen. \\
+
+\paragraph{4.}
+Die Waren aus Vorfall 3. werden am nächsten Tag per Banküberweisung bezahlt. \\
+
+\paragraph{5.}
+Die Tochter des Eigners entnimmt Waren mit einem Wert von 500 € im Entnahmezeitpunkt aus dem Lager, um eine private Party zu veranstalten. Die Anschaffungsnebenkosten betragen 20 €.  Der Verkaufspreis der Waren beträgt 750 €. Auf der Party schüttet sie Rotwein über ihr neues Kleid, das daraufhin gereinigt werden muss. \\
+
+\paragraph{6.}
+Der Eignet entnimmt 1.000 € aus der Kasse. \\
+
+\paragraph{7.}
+Wir verkaufen Waren im Wert von 2.000 € (netto) auf Ziel. Der Kunde ist berechtigt, bei Zahlung innerhalb von 10 Tagen $4 \%$ Skonto abzuziehen. \\
+
+\paragraph{8.}
+Der Kunde begleicht die Rechnung aus Vorfall 7. drei Wochen später per Banküberweisung. \\
+
+\paragraph{9.}
+Wir kaufen eine Spezialmaschine im Wert von 100.000 € zuzüglich USt auf Ziel. Die Installation der Maschine kostet 22.000 € (brutto). Für den Betrieb der Maschine werden außerdem Schmiermittel für zukünftige Schmierungen i.W.v. 100 € (brutto) gegen Barzahlung beschafft. \\
+
+\paragraph{10.}
+Wir schicken mangelhafte, auf Ziel gekaufte Ware im Wert von 10.000 € (netto) zurück. \\
+
+\paragraph{11.}
+Zinsen in Höhe von 150 € werden auf dem betrieblichen Konto gutgeschrieben. \\
+
+\paragraph{12.}
+Zinsen aus einer privaten Geldanlage des Eigners in Höhe von 75 € werden auf dem betrieblichen Konto gutgeschrieben. \\
+
+\paragraph{13.}
+Die Kosten für das Hotel auf einem privaten Wochenendausflug des Eigners in Höhe von 330 € (brutto) werden vom betrieblichen Bankkonto abgebucht. \\
+
+\paragraph{14.}
+Aus der Kasse werden 220 € entnommen, um Spesen (brutto) auf einer Dienstreise zu begleichen. \\
+
+\paragraph{15.}
+Ein neuer Transporter mit einem Nettopreis in Höhe von 25.000 € wird bestellt. Wir leisten ohne Anzahlungsrechnung eine Anzahlung in Höhe von 13.200 € per Banküberweisung. \\
+
+\paragraph{16.}
+Der Transporter aus Vorfall 15. wir einen Monat später geliefert. Der Restbetrag wird sofort unter Abzug von $6 \%$ Skonto per Banküberweisung beglichen. \\
+
+\paragraph{17.}
+Wir verkaufen Waren auf Ziel. Der Warenwert beträgt 10.000 €. Da es sich um Restposten handelt und das Lager geräumt werden soll, wird dem Kunden ein Rabatt von $25 \%$ eingeräumt. \\
+
+\paragraph{18.}
+Ein Kunde begleicht eine Rechnung unter Abzug $2 /%$ Skonto. Er überweist 1.078 €. \\
+
+\paragraph{19.}
+Für den geplanten Bau eines Firmenparkplatzes wird ein unbebautes Grundstück erworben. Das Grundstück kostet 500.000 €. Der Kauf wird durch Banküberweisung von 400.000 € und durch die Übernahme einer auf dem Grundstück liegenden Hypothek in Höhe von 100.000 € finanziert. Durch den Erwerb fallen zusätzliche Kosten an: Der Eintrag ins Grundbuch (von Umsatzsteuer befreit) kostet 1.000 €. Die Maklerprovision beträgt 25.000 € (netto). Außerdem ist Grunderwerbssteuer (von Umsatzsteuer befreit) von $3,5 \%$ auf den Kaufpreis zu entrichten. Diese Zahlungsverpflichtungen werden per Banküberweisung beglichen. \\
+
+\paragraph{20.}
+Wir verkaufen Waren auf Ziel. Der vom Kunden zu überweisende Betrag auf der Rechnung lautet auf 24.530 €. \\
+
+\begin{enumerate}
+\item Dem Kunde wurde ein Rabatt in Höhe von $20 \%$ gewährt. Wie hoch war der Warenwert (netto) ursprünglich? \\
+\item Der Kunde stellt nachträglich fest, dass $10 \%$ der Waren verdorben sind. Die Rücksendung führt zu einer Gutsschriftanzeige. \\
+\item Da der Kunde durch seinen Einkauf eine Umsatzgrenze überschritten hat, gewähren wir ihm nachträglich einen Bonus in Höhe von 5.000 € (netto). Es erfolgt eine Verrechnung mit einer Forderung. \\
+\end{enumerate}
+
+\paragraph{21.}
+Ein Kunde schickt mangelhafte Ware zurück, was zu einer Korrektur der Umsatzsteuer in Höhe von 240 € führt. \\
+
+\paragraph{22.}
+Ein Großkunde zahlt 28.600 € per Banküberweisung für eine Warenbestellung an. \\
+
+\paragraph{23.}
+Aufgrund unserer großen Abnahmemenge während des abgelaufenen Jahres gewährt uns ein Zulieferer einen nachträglichen Bonus in Höhe von 10.000 € (netto), der mit Verbindlichkeiten verrechnet wird. \\
+
+\paragraph{24.}
+Wir kaufen Waren im Wert von 20.000 €. Die Zahlungsbedingungen lauten: 20 Tage $2 \%$ Skonto, 30 Tage: netto. Nach fünf Tagen überweisen wir 12.936 € an den Lieferanten. Der Rest wird genau 30 Tage nach Rechnungsstellung überwiesen. \\
+
+\paragraph{25.}
+Wir kaufen Waren im Nettowert von 40.000 € auf Ziel. Zusätzlich werden uns Europaletten mit 1.000 € netto in Rechnung gestellt. Im Fall einer späteren Rücksendung der Paletten würden $90 \%$ ihres Netto-Rechnungsbetrags gutgeschrieben werden. \\  
+
+\paragraph{26.}
+Wir senden Waren im Wert von 4.000 € aus Vorfall 25. wegen Mängeln zurück und erhalten eine Gutsschriftanzeige. Außerdem schicken wir die Europaletten zurück. \\
+
+\paragraph{27.}
+Es wird festgestellt, dass die Waren aus den Vorfällen 3. und 4. zu $20 \%$  ungenießbar sind. Dieser Teil wird an den Lieferanten zurückgeschickt, der uns eine Gutschrift überweist. \\
+
+%-------------------------------------------------------------------
+\subsection{Buchungssätze II}
+Buchen Sie folgende Geschäftsvorfälle. Der Umsatzsteuersatz beträgt einheitlich $19 \%$. Die Erfassung des Materialverbrauchs soll nach der Skontrationsmethode erfolgen. \\
+
+\paragraph{1.}
+Wir kaufen Rohstoffe im Wert von 7.140 € (brutto) ein. Die Rechnung wird sofort per Banküberweisung beglichen. \\
+
+\paragraph{2.}
+Laut Materialentnahmeschein werden Rohstoffe im Wert von 1.000 € aus dem Lager entnommen. Aus 10 Einheiten des Rohstoffs kann immer genau ein Stück Endprodukts hergestellt werden. \\
+
+\paragraph{3.}
+Fertigerzeugnisse im Wert von 3.000 € (netto) werden auf Ziel verkauft. \\
+
+\paragraph{4.}
+Für eine gemietete Spezialmaschine wird eine Leasingrate in Höhe von 595 € (brutto) an den Leasinggeber überwiesen. \\
+
+\paragraph{5.}
+Der Bestand an Fertigerzeugnissen hat sich in der betrachteten Periode um 2.000 € erhöht. \\
+
+%-------------------------------------------------------------------
+\subsection{Buchung nach Inventurmethode}
+Aus der Eröffnungsbilanz eines Industriebetriebs werden die nachfolgenden Konten entnommen: \\
+
+\begin{tabular}{c|cc}
+Konto & Soll & Haben \\
+\hline
+Rohstoffe & 100.000 & -- \\
+\hline
+Hilfsstoffe & 50.000 & -- \\
+\hline
+Betriebsstoffe & 25.000 & --\\
+\end{tabular}
+
+Während der betrachteten Abrechnungsperioden werden Rohstoffe im Wert von 23.800 € (inkl. $19 \%$ USt) beschafft. Ermitteln Sie den Materialverbrauch, schließen Sie die relevanten Bestandskonten und das Aufwandskonto und buchen Sie den Verbrauch an RHB-Stoffen. Buchen Sie nach der Inventurmethode. Die Schlussbestände laut Inventur betragen: Rohstoffe 55.000 €, Hilfsstoffe 30.000 € und Betriebsstoffe 7.000 €. \\
+
+\underline{Rohstoffe}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Aufwand für RHB}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Hilfsstoffe}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{GuV-Konto}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+\underline{Betriebsstoffe}
+
+\begin{tabular}{cc|cc}
+\hline
+Soll & & & Haben \\
+\hline
+\end{tabular}
+\\
+
+%-------------------------------------------------------------------
+\subsection{Fertigerzeugnisse}
+Das Unternehmen N.Otebook OHG erstellt im Jahr X1 Fertigerzeugnisse, wobei für Zwecke der Rechnungslegung folgendes aufbereitetes Datenmaterial (in €) vorliegt. \\
+\begin{tabular}{ccc}
+1. & Anteilige Abschreibungen der Fertigungshalle & 3.000 \\
+2. & Löhne für eingesetzte Mitarbeiter und Fertigungsprozess & 30.000 \\
+3. & Kosten für Spezialwerkzeuge & 20.000 \\
+4. & Kosten für Werkstattverwaltung & 8.000 \\
+5. & Reinigung für Produktionsräume und Geräte & 9.000 \\
+6. & Fertigungsmaterialverbrauch & 15.000 \\
+7. & Personal- und Raumkosten für Beschaffung, Lagerung, etc.  & 3.000 \\
+8. & Werbekosten & 6.000 \\
+9. & Zinsaufwendungen für fertigungsbedingtes Fremdkapital & 8.000 \\
+10. & Zinsaufwendungen für Fremdkapitel zur Errichtung eines Forschungszentrums & 8.000 \\
+11. & Aufwendungen für Altersversorgung & 9.000 \\
+12. & Anteilige Kosten der Personal- und Rechnungswesensabteilung & 5.000 \\
+\end{tabular}
+
+%-----------------------------------------
+\subsubsection{Bilanzansatz}
+Berechnen Sie anhand dieser Angaben den höchst- bzw. geringstmöglichen Bilanzansatz nach HGB für obige Fertigerzeugnisse.
+
+%-----------------------------------------
+\subsubsection{Lageraufbau}
+Wie sind die Fertigererzeugnisse anzusetzen, um dem Ziel eines möglichst hohen/niedrigen Jahresüberschusses in einem Jahr mit Lageraufbau (Produktion > Absatz) gerecht zu werden? 
+
+%-----------------------------------------
+\subsubsection{Lagerabbau}
+Welchen Effekt hat die obige Entscheidung vom Lageraufbau, wenn im folgenden Geschäftsjahr ein Lagerabbau (Produktion < Absatz) stattfindet?
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
